@@ -145,75 +145,49 @@
                 <header class="span3">
                     <h3>Research Experience</h3>
                 </header>
-                <div class="span9">
-                    <h4>Patter Recognition in Clinical Data, Masters Thesis </h4>
-                    <h5>Guide: Prof. Santosh Noronha Dept. of Chemical Engineering,  IIT Bombay </h5>
-                    <h5>April, 2013 - July, 2014</h5>
-                    <p>
-                        <ul>
-                        Cancer is a disease known to be affected by mutations. 
-                        These mutations however may not all be significant. 
-                        Distinguishing driver mutations from passengers is a non-trivial problem. 
-                        We are trying to explore integrative approaches in significant mutation discovery by integrating analysis at multiple levels.
-                        
-                        The current methods are either focused on functional pathway analysis or machine learning. 
-                        We developed a Galaxy based toolbox to run multiple such prediction tools at once,
-                        thus removing the need to convert data formats, in a reproducilbe manner. 
-                        The end results were displayed as a heatmap, to give an insight into those mutations which are
-                         predicted to be drivers, by all the tools, thus possibly reducing the set 
-                         of mutations to the 'real' drivers.
+                <div class="span9">			
+				<p>
+					<span><strong>Tools for Motif Conservation Analysis, PhD Project</strong></span><br />
+				<em>Guide: <span>Prof. Anton Valouev</span></em> 
+				<em><span>Dept. of Preventive Medicine, Keck School of Medicine, USC</span></em>
+				</p><p>
+				<br />Motif analysis of ChIP-Seq datasets often reports multiple motifs. 
+				However, determining the quality of a reported motif is hard. 
+				Motifs predicted by motif discovery tools can often not be the ‘true motifs’ and can have significant p-value(or E-values) for even ‘false motifs’. We hypothesized that, a 
+				‘true motif’ should exhibit high evolutionary conservation scores. 
+				MoCA makes use of the PhyloP and Gerp scores to assess the conservation profile of the motif bases and compares it with flanking bases and by searching for motifs in random genomic regions.
+				 We performed analysis on various ENCODE Chip-Seq datasets and found that the ‘true motifs’, validated experimentally do exhibit high conservation scores.
+				 </p>
+				<p>MoCA is available as a web service at <a href="http://moca.usc.edu" class="uri">http://moca.usc.edu</a></p>
+				<br/>
+<br/>
+                    <p><span><strong> Pattern Recognition in Clinical Data, Masters Thesis </strong></span>
+						<br /><em>Guide: <span>Prof. Santosh Noronha</span></em> <em><span>Dept. of Chemical Engineering, IIT Bombay</span></em><br /><br /><strong><em><span>Awarded Outstanding Thesis Award</span></em></strong><br />
+						</p><p>Cancer is a disease known to be affected by mutations. These mutations however may not all be significant. Distinguishing driver mutations from passengers is a non-trivial problem. The current methods are either focused on functional pathway analysis or machine learning. We developed a Galaxy based toolbox to run multiple such prediction tools at once, thus removing the need to convert data formats, in a reproducible manner. The end results were displayed as a heatmap, to give an insight into those mutations which are predicted to be drivers, by all the tools, thus possibly reducing the set of mutations to the ‘real’ drivers.</p>
+<p>In a separate project, we analysed proteomics data from Glioblastoma patienes. We use Correspondence Analysis and recursive feature elimination to predict a smaller set of marker genes that can be used to differentiate marker genes of Glioblastoma.</p>
+<p>The Galaxy tools are hosted on Testtoolshed <a href="https://testtoolshed.g2.bx.psu.edu/repository?user_id=5b9741dfa55cf19a">here</a></p>
+<p><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4570193/"><span class="math">[Publication]</span> Autoantibody Profiling of Glioma Serum Samples to Identify Biomarkers Using Human Proteome Arrays</a></p>
+<p><a href="http://figshare.com/articles/Pattern_Recognition_in_Clinical_Data/1089638"><span class="math">[Thesis]</span> Pattern Recognition in Clinical Data</a></p>
+<p><a href="http://figshare.com/articles/Dual_Degree_Project_Presentation/1088457"><span class="math">[Defense
+Presentation]</span></a></p>
+<p><a href="http://biorxiv.org/content/early/2014/10/19/010538"><span class="math">[Preprint]</span> GalDrive: Pipeline for comparative identification of driver mutations using the Galaxy framework</a></p>
+<br/>
+<br/>
+<p><strong>Automated Mining of Reaction Patterns</strong><br /><em>Guide: <span>Dr. Syed Asad Rahman</span></em><br /></p>
 
-                         <br/>
-                         As part of a collaboration with Dr. Sanjeeva Srivastava's Lab at IIT Bombay,
-                         we performed proteomics based microarray analysis of Glioblastoma patients. 
-                         We use Correspondence Analysis and recursive feature eleimination to preidict
-                         a smaller set of markere genes that can be used to differentiate Glioma from normal patients.
-                        <!--
-                        A detailed first stage report is available  <a href="https://bitbucket.org/saketkc/ddp-report/src/43f34bde71571a262167807de08eca703dee66db/report.pdf?at=master">here</a> and source code is available <a href="https://bitbucket.org/saketkc/ddp-report">here</a> .
-                       -->
-                       <br/>
-                        <br/>
-                       <b>Awarded Undergraduate Research Award(URA03)</b>
-                        <br/>
-                        <br/>
-                        <b>The  Galaxy tools are hosted on Testtoolshed <a href="https://testtoolshed.g2.bx.psu.edu/repository?user_id=5b9741dfa55cf19a" target="_blank"> here </a></b>
-                        <br/>
-                        <br/>
-                        The final thesis is available here: <a href="http://figshare.com/articles/Pattern_Recognition_in_Clinical_Data/1089638" target="_blank">http://figshare.com/articles/Pattern_Recognition_in_Clinical_Data/1089638</a> or 
-                        <a href="http://www-scf.usc.edu/~skchoudh/files/thesis.pdf">here</a>
-                        <br/>
-                        <br/>
-                        Final Presentation: <a href="http://figshare.com/articles/Dual_Degree_Project_Presentation/1088457" target="_blank">http://figshare.com/articles/Dual_Degree_Project_Presentation/1088457</a>
-                        <br/>
-                        <br/>
-                        A preprint describing the tools is <a href="http://www-scf.usc.edu/~skchoudh/files/Galdrive_biorxiv.pdf">here</a>
-                        </ul>
-                    </p>
-                    <h4>Automated Mining of Reaction Patterns</h4>
-                    <h5>Guide: Dr. Syed Asad Rahman, Janet Thornton Lab</h5>
-                    <h5>European Bioinformatics Institute-Cambridge,UK</h5>
-                    <h5>May, 2012 - July, 2012</h5>
-                    <p>
-                        <ul>
-                        EC-BLAST is a novel tool to compare enzymes and map reactions. 
-                        I used Machine Learning(clustering) based approaches to point out misclassified enzymes in the established classification system. 
-                        I also developed a RESTful web-service to allow automated job submissions that would allow the users to keep track of all submitted jobs and retrieve results on demand 
-                        </ul>
-                    </p>
-                    <h4>Next Generation Sequencing, Supervised Learning Project </h4>
-                    <h5>Guide: Prof. Santosh Noronha Dept. of Chemical Engineering, IIT Bombay</h5>
-                    <h5>July, 2012 - Dec, 2012 </h5>
-                    <p>
-                        <ul>
-                        This project was in collaboration with Advanced Centre for Treatment, Research and Education in Cancer (ACTREC). 
-                        I surveyed literature on Next Generation Sequencing techniques and developed automated pipelines using Python to 
-                        analyze whole genome data of cancer tumors. 
-                        As part of the project I contributed open source modules for BWA and Samtools for Biopython, a Python library for computational biology 
-                        one of which has been incorporated in official Biopython distribution. 
-                        The source code  is available at <a href="https://github.com/biopython/biopython/pull/167" target="_blank">Pull Request 167</a>
-                        and <a href="https://github.com/biopython/biopython/pull/180" target="_blank">Pull Request 180</a>
-                        </ul>
-                    </p>
+<p>EC-BLAST is a novel tool to compare enzymes and map reactions. I used Machine Learning(clustering) based approaches to point out misclassified enzymes in the established classification system. I also developed a RESTful web-service to allow automated job submissions that would allow the users to keep track of all submitted jobs and retrieve results on demand.</p>
+
+<br/>
+<br/>
+<p><strong>Next Generation Sequencing, Supervised Learning Project</strong><br /><em>Guide: <span>Prof. Santosh Noronha</span></em> <em><span>Dept. of Chemical Engineering, IIT Bombay</span></em><br />
+</p><p>This project was in collaboration with Advanced Centre for Treatment, Research and Education in Cancer (ACTREC). Surveyed literature on Next Generation Sequencing techniques and developed automated pipelines using Python to analyze whole genome data of cancer tumors. As part of the project I contributed open source modules for BWA and samtools for Biopython, a Python based open source library for bioinformatics.</p>
+<br/>
+<br/>
+<p><strong>Scilab On Cloud</strong><br /><em>Guide: <span>Prof. Kannan Moudagalya</span></em></p>
+<p>Scilab is an open source software for numerical computation and is primarily command line/GUI based. We developed a back end that allowed running Scilab through browser much like the modern day IPython notebooks.</p>
+<p>Presented at <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6821028">IEEE Conference Cloud Computing and Big Data (CloudCom-Asia), 2013</a></p>
+<br/>
+<br/>
                 </div>
             </article>
             <article class="row-fluid" id="professional">
@@ -369,66 +343,7 @@
                         <li>Used the TxtWeb SMS API to receive queries on SMS and send back the fetched grades from the IITB servers, received 500+ SMS requests</li>
                         <li>Deployed a GMail based chat bot to perform similar operations, received more than 1000 chat requests</li>
                     </p>
-                    <h4>DropBox on SMS</h4>
-                    <h5>Student Hacker,  Yahoo! Open Hack India, Bengaluru</h5>
-                    <h5>July, 2011</h5>
-                    <p>
-                        <li>Shortlisted among the Top 50 hacks from around 150 hacks from all over India</li>
-                        <li>Implemented emailing a file in user's dropbox folder to a specified user by using Dropbox & https://www.TxtWeb.com/TxtWeb API</li>
-                    </p>
-                    <h4>Open EHR</h4>
-                    <h5>Open Source Project</h5>
-                    <h5>Dec, 2012</h5>
-                    <p>
-                        <li>Developed an Electronics Health Record Management System in Django from scratch</li>
-                        <li>The idea was to allow patients to access health reports from anywhere irrespective of the hospital they visit thus
-                        obviating the need of repeating tests in different hospitals</li>
-                        <br/><br/>
-                        The project has not been updated after version 1.0, the source code is <a href="https://github.com/saketkc/open-ehr-django"> here</a>
-                    </p>
-                    <h4>IdeOne Chrome Extension</h4>
-                    <h5>Open Source Project</h5>
-                    <h5>Oct, 2013</h5>
-                    <p>
-                        <li>Developed a Google Chrome based extension to run codes by simply selecting and right clicking text in the browser </li>
-                    <br/><br/>
-                    The source code is <a href="https://github.com/saketkc/ideone-chrome-extension"> here</a>.
-                    </p>
-                    <h4>DriveStack</h4>
-                    <h5>Yahoo! HackU,  IIT Bombay </h5>
-                    <h5>Oct, 2012</h5>
-                    <p>
-                        <li>Finished first among 40+ participating teams</li>
-                        <li>Created a mashup of cloud storage services like DropBox,Google Drive to provide one full stack of cloud storage</li>
-                    </p>
-                    <h4>GigBook, a Facebook App</h4>
-                    <h5>Yahoo! HackU,  IIT Bombay </h5>
-                    <h5>Oct, 2010</h5>
-                    <p>
-                        <li>Developed a Facebook App to fetch the Music Related Likes of a user from his Facebook account using http://developer.yahoo.com/yql/console/YQL and http://last.fmlast.fm API</li>
-                        <li>The upcoming concerts of the users favourite band can be mapped on Yahoo Maps thus enabling a visual picture of all concert locations </li>
-                    </p>
-                    <h4>Pivotal Tracker Email Wrapper</h4>
-                    <h5>Open Source Contribution to Pivotal Labs</h5>
-                    <h5>July, 2011</h5>
-                    <p>
-                        <li>Pivotal Tracker is an online agile project management tool</li>
-                        <li>This is now an Official Third Party Tool featured by Pivotal Labs  <a href="http://www.pivotaltracker.com/help/thirdpartytools"> here</a></li>
-                    </p>
-                    <h4>Open GPS Mapper </h4>
-                    <h5>Web And Coding Club Summer Project,  IIT Bombay</h5>
-                    <h5>May, 2010 - June, 2010</h5>
-                    <p>
-                            <li>Built a Google Maps+GPS mashup, a toned down version of tomcat</li>
-                            <li>Built in Social Features similar to Foursquare</li>
-                    </p>
-                    <h4>Digital Audio Player</h4>
-                    <h5>Electronics Club Summer Project,  IIT Bombay</h5>
-                    <h5>May, 2010-June, 2010</h5>
-                    <p>
-                        <li>Implemented the FAT32 file system reading code for reading the .wav files stored on a SD card</li>
-                        <li>ATMEGA16 was used to play pre-recorded songs on SD card through Pulse Width Modulation</li>
-                    </p>
+                    
                     </div>
                 </article>
                 <article class="row-fluid" id="por">
@@ -459,7 +374,7 @@
                     </article>
             <!-- Footer -->
             <footer>
-                &copy; 2014 Saket Choudhary, Last Updated 7 October, 2014 | 
+                &copy; 2014 Saket Choudhary, Last Updated 13 November, 2015 | 
                 <!--<a href="#">Download em PDF</a> | --> <a href="#" onclick="javascript:window.print();">Print</a> | <a href="#top">Top <i class="icon-arrow-up btn-mini"></i></a>
             </footer>
     </section>
