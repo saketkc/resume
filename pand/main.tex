@@ -1,0 +1,333 @@
+\documentclass[margin,line]{res}
+\usepackage{latexsym}
+\usepackage{tabularx}
+\usepackage{setspace}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{paralist}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage[pdftex]{hyperref}
+\usepackage{array}
+\usepackage[english,latin]{babel}
+\usepackage{enumitem}
+\setlist{leftmargin=4.5mm}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+    \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}
+  }
+  \end{list}
+  }
+
+\newcommand{\itemtabularn}[2]{
+        \renewcommand{\labelitemi}{\tiny$\blacksquare$} 
+        \renewcommand{\labelitemii}{\tiny$\bullet$}
+        \begin{minipage}[t]{0.89\linewidth}
+            \flushleft
+            {#1}
+        \end{minipage}
+        \begin{minipage}[p]{0.13\linewidth}
+            \flushright
+            {[#2]}
+        \end{minipage}
+    }
+\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+\newcommand{\ressubheading}[4]{
+    \begin{tabular*}{6.25in}{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & #2 \\
+        \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+\begin{document}
+
+\name{Saket Choudhary \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{3.6in}p{4in}}
+1076W $30^{th}$ Street             & {\it Email:}  \href{mailto:skchoudh@usc.edu}{skchoudh@usc.edu} \\            
+Apartment $\#$13   & {\it Homepage:}  \href{http:/saket-choudhary.me/pertinent-blog}{http:/saket-choudhary.me}\\ 
+Los Angeles, California 90007 & {\href{https://scholar.google.com/citations?user=BmC4P-oAAAAJ}{[Google Scholar]}}\quad \quad \quad \quad \quad \quad{\href{https://github.com/saketkc}{[Github]}} \\     
+\end{tabular}
+
+\section{\sc Education}
+{\bf University Of Southern California[USC]}, Los Angeles, USA\\
+ \textit{PhD Student}, Computational Biology and Bioinformatics $[2014-]$ \\
+Advisor: \href{http://www-hsc.usc.edu/~valouev/}{Prof. Anton Valouev}\\
+Project: Tools for Motif conservation Analysis \href{http://moca.usc.edu:5000}{http://moca.usc.edu}\\ \href{http://figshare.com/articles/MoCA_Poster/1565626}{[Poster]} \qquad \href{https://github.com/saketkc/moca/blob/master/abstract/abstract.pdf}{[Abstract]}\\
+%\textbf{GPA}: 3.5/4
+
+{\bf Indian Institute of Technology Bombay[IITB]}, Mumbai India\\
+ \textit{Bachelor of Technology, Master of Technology}, Chemical Engineering $[2009-2014]$ \\
+Dissertation Topic:  \href{http://figshare.com/articles/Pattern_Recognition_in_Clinical_Data/1089638}{[Thesis] Pattern Recognition in Clinical Data}\\
+\textbf{GPA}: 8.47/10
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\sc Honors and Awards} 
+
+\begin{itemize}
+\item \itemtabularn{Provost Fellowship[USC] awarded to outstanding incoming PhD Students}{2014}
+\item \itemtabularn{Gandhian Young Technological Innovation Award for designing a low cost spectrophotometer for testing water impurity by Indian Institute of Management Ahmadabad}{2013}
+\item \itemtabularn{Institute Organizational Color[IITB] for excellence in Organizational activities as a Web Manager for the UG Academic Council}{2013}
+\item \itemtabularn{Institute Technical Special Mention[IITB] for contributing actively to technical activities}{2012}
+\item \itemtabularn{Undergraduate Research Award[IITB] for developing `Scilab on Cloud'}{2012}
+\item \itemtabularn{Institute Technical Special Mention[IITB] for improving student participation in technical activities, while working as a core team member of the Student Technical Body}{2011}
+\item \itemtabularn{Institute Technical Special Mention[IITB] for contributing to Institute's Technical activities as a freshman}{2010}
+\item \itemtabularn{Kishor Vaignyanik Protsahan Yojana(KVPY) Fellowship  by Indian Institute of Science, awarded to top 125 students in India to pursue Science}{2007}
+\item \itemtabularn{Homi Bhabha Young Scientists' Gold Medal by Bombay's Science Teacher Association}{2005}
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\sc Olympiads}
+
+\begin{itemize}
+\item \itemtabularn{Among {\bf Top 6} and  {\bf Top 30 }  to be selected for {\bf {Indian National Mathematics Olympiad(INMO)}}, selection level exam for International Mathematical Olympiad(IMO)}{2008,09}
+\item \itemtabularn{{\bf Top 250} in {\bf {Indian National Physics Olympiad (INPhO)}}}{2009}
+\item \itemtabularn{{\bf Top 300} in {\bf Indian National Astronomy Olympiad (INAO)}}{2009}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\sc Publications}
+
+Syed, Parvez, Shabarni Gupta, \textbf{Saket Choudhary}, Narendra Goud Pandala, Apurva Atak, Annie Richharia, Heng Zhu et al. \emph{Autoantibody Profiling of Glioma Serum Samples to Identify Biomarkers Using Human Proteome Arrays} Scientific reports 5 (2015). \href{http://dx.doi.org/10.1038\%2Fsrep13895}{Link}
+
+Yachdav, Guy, Tatyana Goldberg, Sebastian Wilzbach, David Dao, Iris Shih, \textbf{Saket Choudhary}, Steve Crouch et al. \emph{Anatomy of BioJS, an open source community for the life sciences.} eLife 4 (2015): e07009. \href{http://dx.doi.org/10.7554/eLife.07009}{Link}
+
+\textbf{Choudhary, Saket}, and Santosh B. Noronha. \emph{GalDrive: Pipeline for comparative identification of driver mutations using the Galaxy framework.} bioRxiv (2014): 010538.  \href{http://dx.doi.org/10.1101/010538}{Link}
+
+\textbf{Choudhary, Saket}, Vishnu Raj, K. Sanmugasundaram, Gyan Singh Patel, and Kannan Moudgalya. \emph{Scilab on Cloud and Textbook Companion Project: A Web 2.0 Service for Open Source Education.} In 2013 International Conference on Cloud Computing and Big Data. \href{http://dx.doi.org/10.1109/CLOUDCOM-ASIA.2013.92}{Link}
+
+Gatkine, Pradip, Swati Gatkine, Sushanth Poojary, \textbf{Saket Choudhary}, and Santosh Noronha. \emph{Development of piezo-electric sensor based noninvasive low cost Arterial Pulse Analyzer.} In Biomedical Engineering International Conference (BMEiCON), 2013 6th, pp. 1-4. IEEE, 2013. \href{http://dx.doi.org/10.1109/BMEiCon.2013.6687701}{Link}
+
+Dilip Save, Yogesh, R. Rakhi, N. D. Shambhulingayya, Amit Srivastava, Manas Ranjan Das, \textbf{Saket Choudhary}, and Kannan M. Moudgalya. \emph{Oscad: An open source EDA tool for circuit design, simulation, analysis and PCB design.} In Electronics, Circuits, and Systems (ICECS), 2013 IEEE 20th International Conference on, pp. 851-854. IEEE, 2013. \href{http://dx.doi.org/10.1109/ICECS.2013.6815548}{Link}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\sc Research Experience}
+
+{\textbf{Tools for Motif Conservation Analysis, PhD Project}} \hfill {May, 2015 - Ongoing}\\
+\textit{Guide: {Prof. Anton Valouev}} \hfill \textit{{Dept. of Preventive Medicine, Keck School of Medicine, USC}}\\
+
+\noindent Motif analysis of ChIP-Seq datasets often reports multiple motifs. 
+However, determining the quality of a reported motif is hard. Motifs predicted by motif discovery tools can often not be the `true motifs' and  
+can have significant p-value(or E-values) for even `false motifs'.
+We hypothesized that, a `true motif' should exhibit high evolutionary conservation scores.
+MoCA makes use of the PhyloP and Gerp scores to assess the conservation profile of the motif bases and compares it with flanking bases and by 
+searching for motifs in random genomic regions. 
+We performed analysis on various ENCODE Chip-Seq datasets and found that the `true motifs', validated experimentally do exhibit high conservation scores.
+
+MoCA is available as a web service at \url{http://moca.usc.edu}
+
+\vspace{.3cm}
+{\textbf{Patter Recognition in Clinical Data, Masters Thesis}} \hfill {April, 2013 - July, 2013}\\
+\textit{Guide: {Prof. Santosh Noronha}} \hfill \textit{{Dept. of Chemical Engineering, IIT Bombay}}\\
+\\
+\textbf{\em{Awarded Outstanding Thesis Award}}\\
+
+\noindent Cancer is a disease known to be affected by mutations. These mutations however may not all be significant.
+Distinguishing driver mutations from passengers is a non-trivial problem. 
+The current methods are either focused on functional pathway analysis or machine learning. 
+We developed a Galaxy based toolbox to run multiple such prediction tools at once, thus removing the need to convert data formats, in a reproducible manner. 
+The end results were displayed as a heatmap, to give an insight into those mutations which are predicted to be drivers, by all the tools, thus possibly reducing the set of mutations to the `real' drivers.
+
+We also analysed Proteomics data .................................
+We use Correspondence Analysis and recursive feature elimination to predict a smaller set of marker genes that can be used to differentiate marker genes of Glioblastoma.
+
+The Galaxy tools are hosted on Testtoolshed \href{https://testtoolshed.g2.bx.psu.edu/repository?user_id=5b9741dfa55cf19a}{here }
+
+\href{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4570193/}{[Publication] Autoantibody Profiling of Glioma Serum Samples to Identify Biomarkers Using Human Proteome Arrays }
+
+\href{http://figshare.com/articles/Pattern_Recognition_in_Clinical_Data/1089638 }{[Thesis] Pattern Recognition in Clinical Data}
+
+\href{http://figshare.com/articles/Dual_Degree_Project_Presentation/1088457}{[Defense Presentation]}
+
+\href{http://biorxiv.org/content/early/2014/10/19/010538}{[Preprint] GalDrive: Pipeline for comparative identification of driver mutations using the Galaxy framework}
+
+\vspace{.3cm}
+\textbf{Automated Mining of Reaction Patterns}\hfill {May 2012 - Jul 2012}\\
+\textit{Guide: {Dr. Syed Asad Rahman}}
+\hfill{\textit{{Janet Thornton Lab, EMBL-EBI, Cambridge(UK)}}}\\
+
+\noindent
+EC-BLAST is a novel tool to compare enzymes and map reactions.
+I  used Machine Learning(clustering) based approaches to point out misclassified enzymes in the established classification system.
+I also developed a RESTful web-service to allow automated job submissions that would allow the users to keep track of all submitted jobs and retrieve results on demand.
+
+\vspace{.3cm}
+\textbf{Next Generation Sequencing, Supervised Learning Project} \hfill {Jul,2012-Dec,2012}\\
+\textit{Guide: {Prof. Santosh Noronha}} \hfill \textit{{Dept. of Chemical Engineering, IIT Bombay}}\\
+
+This project  was  in collaboration with Advanced Centre for Treatment, Research and Education in Cancer (ACTREC).  
+Surveyed literature on Next Generation Sequencing techniques and 
+developed  automated pipelines using Python to analyze whole genome data of cancer tumors. As part of the project I contributed open source modules for BWA and samtools for Biopython, a Python based open source library for bioinformatics.
+
+\vspace{.3cm}
+\textbf{Scilab On Cloud}\hfill {May 2012-Jul 2012}\\
+\textit{Guide: {Prof. Kannan Moudagalya}}\hfill{\textit{{Dept. of Chemical Engineering, IIT Bombay}}}
+
+Scilab is an open source software for numerical computation and is primarily command line/GUI based.
+We developed a back end that allowed running Scilab through browser much like the modern day
+IPython notebooks.
+
+Presented at \href{http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6821028}{IEEE Conference Cloud Computing and Big Data (CloudCom-Asia), 2013 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\sc Professional Experience}
+
+\textbf{Google Summer of Code 2015 | Mixed Effect Models for $statsmodels$}\hfill {May 2015-Jul 2015}\\
+{Student Contract Developer}\\
+\begin{itemize}
+\item Implemented new IPython based notebooks using Mixed Effects Models
+\item Implemented Likelihood ratio tests, performance improvements
+\end{itemize}
+\pagebreak
+
+\textbf{SlideShare}\hfill{May 2011-Jul 2011}\\
+{Software Engineering Intern} \hfill{New Delhi, India}\\
+\begin{itemize}
+\item SlideShare \url{http://www.slideshare.net} is an online platform to view and upload presentations
+\item{Deployed a Ruby on Rails module  to allow administrators to delete/suspend defunct users and slide-shows using filters}
+\item {Tool is being used currently at SlideShare internally for management of users and slide-shows}
+\end{itemize}
+
+\vspace{.3cm}
+{\textbf{Google Summer of Code | BioJavascript}} \hfill {Jul, 2014-Sep, 2014}\\
+{Student Contract Developer}\\
+\begin{itemize}
+\item {Worked with BioJavascript, an open source library of javascript components to represent biological data}
+\item {Developed Human Genetic Variation Viewer, a d3.js based component to visualize genetic variations in humans}
+\item {Demo: \url{http://saketkc.github.io/biojs}}
+\item{Screencast: \url{http://youtu.be/jd6S_xnCGwU}}
+\end{itemize}
+
+\vspace{.3cm}
+{\textbf{Google Summer of Code-Penn State University | Galaxy Project}} \hfill {July, 2013 - Sep, 2013}\\
+{Student Contract Developer}\\
+\begin{itemize}		
+\item{Worked with  Galaxy Project\url{http://galaxyproject.org/}, an open source web-based platform for data intensive biomedical research}
+\item{Implemented `nested workflows' that allows users to run a workflow inside a workflow, obviating the need of replicating steps, \url{https://bitbucket.org/galaxy/galaxy-central/pull-request/229/nested-workflows}}  
+\item{Added `edit on the go' functionality to edit default parameters before runtime \url{https://bitbucket.org/galaxy/galaxy-central/pull-request/232/editable-workflows-gsoc2013}}
+\item{Proof Of Concept: \url{http://galaxy-gsoc2013.blogspot.com/2013/09/and-it-comes-to-end.html}}
+\end{itemize}
+
+\vspace{.3cm}
+{\textbf{Google Summer of Code-Rice University | Connexions Project}} \hfill {July, 2012 - Sep, 2012}\\
+{Student Contract Developer}\\
+\begin{itemize}
+\item {Developed a Python module  to aid conversion of slide-shows to online published notebooks using SlideShare API}
+\item {Implemented the functionality to add user defined quiz as an additional achievement}
+\item {Demo: \url{http://youtu.be/jfU0uj_ipY8}}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\sc Other Projects} 
+\ressubheading{\bf{Image Analysis of Tuberculosis samples}}{Jan, 2013 - Apr, 2013}
+{Supervised Learning Project, Collaborator: Hinduja Hospital, Mumbai}{}\\
+\begin{itemize}
+\item{Implemented {\bf{image processing}} algorithms for to automatically identify true positives in TB sputum images}
+\item{Developed a wxPython based {\bf{GUI}} and OpenCV based image processor}
+\end{itemize}
+
+\pagebreak
+\ressubheading{\bf{Pratham, Student Satellite Programme}}{May, 2010 - Oct, 2010}
+{Part of First Student's Satellite Team}{IIT Bombay}\\
+\begin{itemize}
+\item{Pratham is an interdisciplinary program aiming to build a cubesat,to measure the Total Electron Count in the atmosphere}
+\item{Implemented ADC sub-module on ATMEGA32, performed hardware testing}
+\end{itemize}
+
+\vspace{.3cm}
+\ressubheading{\bf{IIT Bombay Grading System on SMS}}{Oct, 2011-Dec, 2011}
+{Course  Project}{}\\
+\begin{itemize}
+    \item{Developed a Python/Flask based app to automatically scrape the  IITB web pages }
+    \item{Developed an SMS based API to receive queries and send back the fetched grades from the IITB servers, received 500+ SMS requests }
+    \item{Deployed a GMail based chat bot to perform similar operations, received more than 1000 chat requests}
+\end{itemize}
+
+\vspace{.3cm}
+\ressubheading{Digital Audio Player}{IIT Bombay}
+{Electronics Club Summer Project, IIT Bombay}{May, 2010 - June, 2010}\\
+\begin{itemize}
+\item{Implemented the {\emph FAT32} file system reading code for reading the wav files stored on a SD card}
+\item{ATMEGA16 was used to play pre-recorded songs on SD card through {\emph{Pulse Width Modulation}} }
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Teaching Experience}
+\textbf{Teaching Assistant, Computer Programming and Utilization}\hfill{Autumn 2011}
+\begin{itemize}
+\item {Selected as an Undergraduate Teaching Assistant on the basis of past performance}
+\item {Mentored students for Lab Sessions and Projects assist in conduct of examination and evaluation}
+\end{itemize}
+
+\vspace{.3cm}
+\textbf{Teaching Assistant, Artificial Intelligence in Process Engineering}\hfill{Autumn 2011}
+\begin{itemize}
+\item {Involved in answering forum posts, grading exams}
+\end{itemize}
+
+\section{\sc Positions of Responsibility}
+\textbf{Web Manager, UG Academic Council} \hfill {July, 2012 - April, 2013}
+\begin{itemize}
+\item {Initiated a number of web portals for improving the accessibility of academic resources to the students} 
+\item {Implemented  Online Notice Board System via Institute's Gymkhana website} 
+\item {Awarded \textbf{Institute Organizational Color}}
+\end{itemize}
+
+\vspace{.3cm}
+\textbf{Institute Internship Coordinator, Practical Training Cell}\hfill{July, 2011 - April, 2012}
+\begin{itemize}
+\item {Initiated Industry \& University Interaction for internships} 
+\item {Number of internships registered a 40 percent growth}
+\end{itemize}
+
+\textbf{TechniC, Core Group Member}\hfill{July, 2010 - April, 2011}
+\begin{itemize}
+\item Member of IIT Bombay's Technical events organizing body
+\item{Organized technical events inside the institute along with nine other members }
+\item{Mentored students for various technical competitions}
+\end{itemize}
+
+\section{\sc Standardized Test Scores}
+\begin{itemize}
+\item GRE: Quantitative: 170/170 Verbal: 153/170 Analytical Writing: 3.5/6
+\item TOEFL: Reading: 29/30 Listening: 28/30 Speaking: 24/30 Writing:28/30 Total: 109/120
+\end{itemize}
+
+\end{resume}
+\end{document}
+
+
+
+
